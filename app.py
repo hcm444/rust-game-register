@@ -25,7 +25,6 @@ def register():
     if request.method == 'POST':
         user_data = {
             'username': request.form.get('username'),
-            'email': request.form.get('email'),
             'password': request.form.get('password')
         }
         
